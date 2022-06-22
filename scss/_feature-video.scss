@@ -1,0 +1,95 @@
+.news10-feature-video-section {
+    position: relative;
+    padding-top: 80px;
+    z-index: 1;
+}
+.top-bg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    img {
+        height: 270px;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: top left;
+        object-position: top left;
+    }
+} 
+.video-section-grid {
+    gap: 35px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+    grid-auto-rows: 245px;
+    grid-auto-flow: dense;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 2.6rem;
+}
+.feature-grids:first-child { 
+    grid-column: span 4; 
+    grid-row: span 3;
+}
+.iframe-video-wrapper iframe {
+    width: 100%;
+    height: 805px;
+    margin-bottom: -8px;
+} 
+.weekly-review-card {  
+    .feature-body{
+        padding: 15px 0 0 0 !important;
+        .news-title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+            margin-bottom: 10px;
+            font-family: 'Butler';
+        }
+    }
+}
+.card-thumb {
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        display: block;
+        left: 0;
+        bottom: 0;
+        height: 70%;
+        width: 100%;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(15, 41, 49, 0)), to(rgba(15, 41, 49, 0.8)));
+        background: linear-gradient(180deg, rgba(15, 41, 49, 0) 60%, rgba(15, 41, 49, 0.8) 100%);
+    }
+    img {
+        height: 170px;
+        max-width: 100%;
+    }
+    .news-ctg-link {
+        display: inline-block;  
+        text-transform: capitalize; 
+        color: #fff;
+        margin-bottom: 5px; 
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        z-index: 2;
+        opacity: 1;
+    }
+    .venobox {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,74 @@
+.maan-entertainment-area{
+    display: block;
+    overflow: hidden;
+    padding-bottom: 8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.entertainment-wrap{
+    display: grid;
+    grid-gap: 0 50px;
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr)); 
+    grid-auto-flow: dense;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 27px;
+}
+.entertainment-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.entertainment-item:first-child{
+    padding-top: 0;
+}
+
+.entertainment-text{
+    margin-right: 1rem;
+}
+.entertainment-img{
+    display: block;
+    height: 10.5rem;
+    width: 16.3rem;
+    object-fit: cover;
+}
+.emtertainment-show-img{ 
+    width: 100%;
+    height: 245px;
+    display: block;
+    object-fit: cover;
+}
+.entertainment-item-borders{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -2.5rem;
+        height: 99.5%;
+        width: 1px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -2.5rem;
+        height: 99.5%;
+        width: 1px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+.emtertainment-img{
+    height: 22.4rem;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+.emtertainment-card-body{
+    padding-top: 2rem; 
+}
+.entertainment-heading{
+    padding-bottom: 8px;
+
+}

@@ -1,0 +1,42 @@
+.maan-breadcrumb-area{
+    display: block;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.05);
+    margin-top: 70px;
+}
+.breadcrumb_nav{ 
+    font-weight: 600;
+    font-size: 16px;   
+    .breadcrumb_order{
+        padding: 32px 0;
+        margin-bottom: 0;
+        .breadcrumb-item{
+            .breadcrumb_link{
+                font-family: 'Now'; 
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px; 
+                text-transform: capitalize; 
+                color: #4D4D4D;
+                padding-right: 5px;
+                transition: .3s;
+                &:hover{
+                    color: #FF2525;
+                }
+            }
+        }
+        .breadcrumb-focused{
+            font-family: 'Now'; 
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;   
+            color: #FF2525;
+            text-transform: capitalize;
+            
+        }
+    }
+}
+.breadcrumb-item::before { 
+    padding-right: 8px; 
+    font-size: 16px;
+}

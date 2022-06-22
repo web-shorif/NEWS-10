@@ -1,0 +1,53 @@
+/* ------------------------------------------------------
+@File: Default Styles 
+@Developed By: Shorif 
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+------------------------------------------------------- */
+ 
+/* ======================================================
+@Template Name: News-10 Html Template 
+@Default Styles
+ 
+
+===================================================== */ 
+ 
+/*----------------------------------------------------*/
+@import "header";
+/*----------------------------------------------------*/
+@import "variables";
+/*----------------------------------------------------*/  
+@import "hero";  
+/*----------------------------------------------------*/ 
+@import "editor";  
+/*----------------------------------------------------*/
+@import "ecomomy";  
+/*----------------------------------------------------*/
+@import "world-news";  
+/*----------------------------------------------------*/
+@import "feature-video";  
+/*----------------------------------------------------*/
+@import "entertainment";  
+/*----------------------------------------------------*/
+@import "breadcrumb";  
+/*----------------------------------------------------*/ 
+@import "news-author";  
+/*----------------------------------------------------*/ 
+@import "footer";  
+/*----------------------------------------------------*/ 
+@import "prefix";
+/*----------------------------------------------------*/   
+ @import "responsive";
+/*----------------------------------------------------*/ 
+
+/*All CSS call*/ 
+@import "../css/bootstrap.min.css"; /* Bootstrap CSS */
+/* Icon CSS */
+@import "../vendors/fontawesome-pro-5.0.6/css/fontawesome-all.min.css";   
+/* Extra Plugins CSS */  
+// @import "../vendors/wow-js/animate.css";    
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Jost:wght@100;200;300;400;500&display=swap');
